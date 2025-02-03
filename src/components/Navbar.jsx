@@ -116,7 +116,7 @@ export default function Example() {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Company
           </a>
-          <NavLink to="/cart" className="text-sm/6 font-semibold text-gray-900">
+          <NavLink to="/parent" className="text-sm/6 font-semibold text-gray-900">
             Cart
           </NavLink>
         </PopoverGroup>

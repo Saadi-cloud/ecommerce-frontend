@@ -6,6 +6,7 @@ import PublicLayout from "./layouts/PublicLayout";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import ParentComponent from "./pages/ParentComponent";
 const AppRouter = () => {
     return (
         <BrowserRouter>
@@ -18,6 +19,7 @@ const AppRouter = () => {
                     <Route path="agents" element={<Agents />} />
                     <Route path="cart" element={<Cart />} />
                     <Route path="checkout" element={<Checkout/>} />
+                    <Route path="parent" element={<ParentComponent/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
